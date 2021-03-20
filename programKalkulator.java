@@ -14,7 +14,8 @@ import java.util.Scanner;
 public class programKalkulator {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
-        Double jarijari, phi = 3.14;
+        Double jarijari; 
+	Double phi = 3.14;
         int inputMenu;
         
         System.out.println("MENU\n1.Hitung Luas lingkaran\n2.Hitung Keliling lingkaran\nPilih Menu : ");
@@ -40,3 +41,4 @@ public class programKalkulator {
         }
     }
 }
+
